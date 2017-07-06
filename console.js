@@ -10,3 +10,4 @@ console.info('程序执行完毕了');
 
 console.log('当前目录：'+process.cwd());
 console.log('当前版本'+process.version);
+console.log(process.memoryUsage());
